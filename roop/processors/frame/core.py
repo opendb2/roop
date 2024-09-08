@@ -36,6 +36,7 @@ def load_frame_processor_module(frame_processor: str) -> Any:
 
 
 def get_frame_processors_modules(frame_processors: List[str]) -> List[ModuleType]:
+    print(frame_processors)
     global FRAME_PROCESSORS_MODULES
 
     if not FRAME_PROCESSORS_MODULES:
